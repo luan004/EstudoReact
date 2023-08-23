@@ -1,14 +1,17 @@
 import './App.css';
 import Login from './components/login.js';
-import Panel from './components/panel.js';
+import Home from './components/home.js';
 
 export default function App() {
   let content;
-  if (true) {
+
+  // check url
+  if (window.location.pathname === "/login") {
     content = <Login />;
   } else {
-    content = <Panel />;
+    content = <Home />;
   }
+
   return (
     <div>
       {content}
