@@ -12,6 +12,9 @@
     font-size: 16px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px #00000067;
+    transition: 0.2s;
+    margin: 5px;
+    width: 200px;
 }
 
 .Button:hover {

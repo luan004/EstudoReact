@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Panel from './panel';
-import '../css/Pieces.css';
 
 export default function Login() {
     window.history.pushState(null, null, '/login');

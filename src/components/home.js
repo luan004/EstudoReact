@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../components/Elements.jsx'
 
 export default function Home() {
     window.history.pushState(null, null, '/home');
@@ -8,6 +9,15 @@ export default function Home() {
                 <p>
                     home
                 </p>
+                <Button 
+                    label="Iniciar"
+                />
+                <Button
+                    label="Configurações"
+                />
+                <Button
+                    label="Informações"
+                />
             </header>
         </div>
     );
